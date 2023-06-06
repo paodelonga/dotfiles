@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+
+killall -s 9 -w picom
+sleep 1
+picom

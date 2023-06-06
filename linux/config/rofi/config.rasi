@@ -1,0 +1,16 @@
+configuration{
+    modi: "run,drun,window";
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: false;
+    display-drun: "Applications ";
+    display-run: "Shell ";
+    display-window: "Clients";
+    display-Network: "Network";
+    sidebar-mode: true;}
+
+@theme "/home/paodelonga/.config/rofi/themes/Sisifo.rasi"

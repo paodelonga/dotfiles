@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+
+killall -s 9 -w kdeconnect-indicator
+sleep 1
+kdeconnect-indicator

@@ -1,0 +1,14 @@
+[{
+  "Name": "sisifo-transparente",
+  "Description": "A transparente color scheme for Micro",
+  "Tags": ["colorscheme"],
+  "Versions": [
+    {
+      "Version": "0.1.0",
+      "Url": "https://github.com/paodelonga/sisifo/archive/0.1.0.zip",
+      "Require": {
+        "micro": ">=1.1.3"
+      }
+    }
+  ]
+}]

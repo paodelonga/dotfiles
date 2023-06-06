@@ -1,0 +1,15 @@
+[gpg]
+	program = gpg
+[core]
+	editor = "micro "
+	excludesFile = /home/paodelonga/.gitignore_global
+[user]
+	name = username
+	email = username@domain.com
+	signingkey = 1A3B4C5D6E7F8G9H0I
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[safe]
+	directory = *

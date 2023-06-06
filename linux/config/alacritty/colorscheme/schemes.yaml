@@ -1,0 +1,176 @@
+schemes:
+  ayu_dark: &ayu_dark
+    primary:
+      background: '0x0A0E14'
+      foreground: '0xB3B1AD'
+    normal:
+      black:   '0x01060E'
+      red:     '0xEA6C73'
+      green:   '0x91B362'
+      yellow:  '0xF9AF4F'
+      blue:    '0x53BDFA'
+      magenta: '0xFAE994'
+      cyan:    '0x90E1C6'
+      white:   '0xC7C7C7'
+    bright:
+      black:   '0x686868'
+      red:     '0xF07178'
+      green:   '0xC2D94C'
+      yellow:  '0xFFB454'
+      blue:    '0x59C2FF'
+      magenta: '0xFFEE99'
+      cyan:    '0x95E6CB'
+      white:   '0xFFFFFF'
+
+  dracula: &dracula
+    primary:
+      background: '0x282a36'
+      foreground: '0xf8f8f2'
+    normal:
+      black:   '0x000000'
+      red:     '0xff5555'
+      green:   '0x50fa7b'
+      yellow:  '0xf1fa8c'
+      blue:    '0xbd93f9'
+      magenta: '0xff79c6'
+      cyan:    '0x8be9fd'
+      white:   '0xbbbbbb'
+    bright:
+      black:   '0x555555'
+      red:     '0xff5555'
+      green:   '0x50fa7b'
+      yellow:  '0xf1fa8c'
+      blue:    '0xcaa9fa'
+      magenta: '0xff79c6'
+      cyan:    '0x8be9fd'
+      white:   '0xffffff'
+
+  horizon-dark: &horizon-dark
+    primary:
+      background: '0x1c1e26'
+      foreground: '0xe0e0e0'
+    normal:
+      black:   '0x16161c'
+      red:     '0xe95678'
+      green:   '0x29d398'
+      yellow:  '0xfab795'
+      blue:    '0x26bbd9'
+      magenta: '0xee64ac'
+      cyan:    '0x59e1e3'
+      white:   '0xd5d8da'
+    bright:
+      black:   '0x5b5858'
+      red:     '0xec6a88'
+      green:   '0x3fdaa4'
+      yellow:  '0xfbc3a7'
+      blue:    '0x3fc4de'
+      magenta: '0xf075b5'
+      cyan:    '0x6be4e6'
+      white:   '0xd5d8da'
+
+  omni: &omni
+    primary:
+      background: '0x191622'
+      foreground: '0xe1e1e6'
+    cursor:
+      text: '0x191622'
+      cursor: '0xf8f8f2'
+    normal:
+      black: '0x000000'
+      red: '0xff5555'
+      green: '0x50fa7b'
+      yellow: '0xeffa78'
+      blue: '0xbd93f9'
+      magenta: '0xff79c6'
+      cyan: '0x8d79ba'
+      white: '0xbfbfbf'
+    bright:
+      black: '0x4d4d4d'
+      red: '0xff6e67'
+      green: '0x5af78e'
+      yellow: '0xeaf08d'
+      blue: '0xcaa9fa'
+      magenta: '0xff92d0'
+      cyan: '0xaa91e3'
+      white: '0xe6e6e6'
+    dim:
+      black: '0x000000'
+      red: '0xa90000'
+      green: '0x049f2b'
+      yellow: '0xa3b106'
+      blue: '0x530aba'
+      magenta: '0xbb006b'
+      cyan: '0x433364'
+      white: '0x5f5f5f'
+
+  one_dark: &one_dark
+    primary:
+      background: '0x1e2127'
+      foreground: '0xabb2bf'
+    normal:
+      black:   '0x1e2127'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xabb2bf'
+    bright:
+      black:   '0x5c6370'
+      red:     '0xe06c75'
+      green:   '0x98c379'
+      yellow:  '0xd19a66'
+      blue:    '0x61afef'
+      magenta: '0xc678dd'
+      cyan:    '0x56b6c2'
+      white:   '0xffffff'
+
+  thelovelace: &thelovelace
+    primary:
+      background: '0x1D1F28'
+      foreground: '0xFDFDFD'
+    normal:
+      black:   '0x282A36'
+      red:     '0xF37F97'
+      green:   '0x5ADECD'
+      yellow:  '0xF2A272'
+      blue:    '0x8897F4'
+      magenta: '0xC574DD'
+      cyan:    '0x79E6F3'
+      white:   '0xFDFDFD'
+    bright:
+      black:   '0x414458'
+      red:     '0xFF4971'
+      green:   '0x18E3C8'
+      yellow:  '0xEBCB8B'
+      blue:    '0xFF8037'
+      magenta: '0x556FFF'
+      cyan:    '0x3FDCEE'
+      white:   '0xBEBEC1'
+
+  zenburn: &zenburn
+    primary:
+      background: '0x3A3A3A'
+      foreground: '0xDCDCCC'
+    normal:
+      black:   '0x1E2320'
+      red:     '0xD78787'
+      green:   '0x60B48A'
+      yellow:  '0xDFAF8F'
+      blue:    '0x506070'
+      magenta: '0xDC8CC3'
+      cyan:    '0x8CD0D3'
+      white:   '0xDCDCCC'
+    bright:
+      black:   '0x709080'
+      red:     '0xDCA3A3'
+      green:   '0xC3BF9F'
+      yellow:  '0xF0DFAF'
+      blue:    '0x94BFF3'
+      magenta: '0xEC93D3'
+      cyan:    '0x93E0E3'
+      white:   '0xFFFFFF'
+
+
+colors: *challenger_deep

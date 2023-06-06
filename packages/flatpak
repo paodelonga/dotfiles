@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+packages=(
+    "art.taunoerik.tauno-serial-plotter"
+    "cc.arduino.IDE2"
+    "com.anydesk.Anydesk"
+    "com.github.fabiocolacio.marker"
+    "com.github.johnfactotum.Foliate"
+    "com.github.tchx84.Flatseal"
+    "com.obsproject.Studio"
+    "com.stremio.Stremio"
+    "com.sublimetext.three"
+    "fr.romainvigier.MetadataCleaner"
+    "net.christianbeier.Gromit-MPX"
+    "org.darktable.Darktable"
+    "org.freedesktop.Piper"
+    "org.fritzing.Fritzing"
+    "org.gimp.GIMP"
+    "org.gnome.gitlab.somas.Apostrophe"
+    "org.gtk.Gtk3theme.Qogir-dark"
+    "org.gtk.Gtk3theme.Qogir"
+    "com.simplenote.Simplenote"
+    "com.notesnook.Notesnook"
+    "com.bitwarden.desktop"
+    "org.kde.kdenlive"
+    "org.kde.krita"
+    "org.onlyoffice.desktopeditors"
+    "org.telegram.desktop"
+    "io.github.hrkfdn.ncspot"
+)
+
+for package in "${packages[@]}"
+do
+    flatpak install -y "$package"
+done

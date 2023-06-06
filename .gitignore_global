@@ -1,0 +1,15 @@
+# gitignore geral do meu ambiente
+
+# Python
+__pycache__/
+
+# Emv
+*_env
+.env
+.env.local
+.env.*.local
+
+# Arduino
+sketch.yml
+sketch.yaml
+sketch.json

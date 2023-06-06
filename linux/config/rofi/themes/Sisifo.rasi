@@ -1,0 +1,96 @@
+* {
+    width: 800px;
+    font: "Hack Nerd Font Regular 12";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       #CAD1FF;
+}
+
+window {
+    height: 450px;
+    border: 1px;
+    border-radius: 20px;
+    border-color: #59C1FF;
+    background-color: #36366B;
+}
+
+mainbox {
+    background-color: #36366B;
+}
+
+inputbar {
+    children: [entry];
+    background-color: #59C1FF; // F5CDFF
+    border-radius: 20px;
+    padding: 0px;
+    margin: 20px 20px 0px 20px;
+}
+
+entry {
+    padding: 5px 15px 5px 15px;
+    margin: 5px 5px 5px 45px;
+    text-color: #FAFAFA;
+    border-radius: 60px;
+    background-color: #36365E;
+}
+
+listview {
+    border: 0px 0px 0px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 20px 10px;
+    columns: 1;
+    lines: 8;
+    background-color: #36365E;
+}
+
+element {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px ;
+    background-color: #36365E;
+    text-color: #FAFAFA;
+}
+
+element-icon {
+    size: 20px;
+}
+
+element selected {
+    background-color: #F5CDFF;
+    text-color: grey;
+}
+
+mode-switcher {
+    spacing: 0;
+}
+
+button {
+    margin: 0px 30px 10px 10px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 100px 100px 100px 100px;
+    background-color: #36365E;
+    text-color: #FAFAFA;
+    vertical-align: 0; 
+    horizontal-align: 0;
+}
+
+button selected {
+  background-color: #F5CDFF;
+  text-color: #FAFAFA;
+}
+
+message {
+    background-color: @bg-col-light;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+textbox {
+    padding: 6px;
+    margin: 20px 0px 0px 20px;
+    text-color: @blue;
+    background-color: @bg-col-light;
+}

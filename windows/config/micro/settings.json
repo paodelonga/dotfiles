@@ -1,0 +1,32 @@
+{
+    "*.editorconfig": {
+        "filetype": "ini"
+    },
+    "*.ino": {
+        "filetype": "c++"
+    },
+    "aspell.check": "on",
+    "autosu": true,
+    "colorscheme": "simple",
+    "diffgutter": true,
+    "fastdirty": true,
+    "indentchar": "    ",
+    "initlua": true,
+    "keepautoindent": true,
+    "lsp.autocompleteDetails": true,
+    "mkparents": true,
+    "parsecursor": true,
+    "pluginchannels": [
+        "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
+    ],
+    "pluginrepos": [],
+    "savecursor": true,
+    "saveundo": true,
+    "scrollbar": true,
+    "scrollspeed": 6,
+    "tabsize": 2,
+    "statusformatl": " $(opt:filetype) | $(opt:fileformat) | $(opt:encoding) | [$(line):$(col):$(lines)] | $(filename) $(modified)",
+    "statusformatr": "",
+    "tabmovement": true,
+    "tabstospaces": true
+}

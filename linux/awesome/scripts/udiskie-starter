@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+
+killall -s 9 udiskie
+sleep 1
+udiskie --no-appindicator --no-tray --quiet --no-notify

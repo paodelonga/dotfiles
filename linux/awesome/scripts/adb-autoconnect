@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+set --local device (adb devices -l | sed -n '2p' | awk '{print $1}')
+set --local device_model (adb devices -l | sed -n '2p' | awk '{print $5}' | grep -ohP "(?<=model:).*")
+set --local device_ip (adb -s "$device" shell netstat | sed -n '3p' | awk '{print $4}' | grep -ohE "(^[0-9.]+)")
+
+adb tcpip $ADB_PORT
+notify-send --app-name "WashOS" --icon "$AWESOME_PATH/icons/adb.png" 'Android Debug Bridge' ''(echo -e (adb connect "$device_ip:$ADB_PORT"))''

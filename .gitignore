@@ -1,0 +1,8 @@
+**/micro/buffers/
+**/micro/backups/
+**/fish_variables
+**/log/
+**/logs/
+**/*.log
+**/log.*
+**Fritzing/backup/

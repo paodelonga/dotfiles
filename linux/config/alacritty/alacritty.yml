@@ -1,0 +1,76 @@
+import:
+  # - ~/.config/alacritty/colorscheme/themes/ayu_dark.yaml
+  - ~/.config/alacritty/colorscheme/themes/dracula.yaml
+  # - ~/.config/alacritty/colorscheme/themes/horizon-dark.yaml
+  # - ~/.config/alacritty/colorscheme/themes/omni.yml
+  # - ~/.config/alacritty/colorscheme/themes/one_dark.yaml
+  # - ~/.config/alacritty/colorscheme/themes/sisifo.yml
+  # - ~/.config/alacritty/colorscheme/themes/thelovelace.yaml
+  # - ~/.config/alacritty/colorscheme/themes/tomorrow_night_bright.yaml
+  # - ~/.config/alacritty/colorscheme/themes/zenburn.yaml
+
+# ============================================================ #
+
+env:
+  TERM: xterm-256color
+
+# ============================================================ #
+
+window:
+  opacity: 0
+
+  dynamic_padding: false
+  padding:
+    x: 0
+    y: 5
+
+  title: Alacritty
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 25000
+
+# ============================================================ #
+
+font:
+  normal:
+    family: Hack NF
+    style: Regular
+
+  italic:
+    family: Hack NF
+    style: Italic
+
+  bold:
+    family: Hack NF
+    style: Bold
+  size: 9
+
+  offset:
+    x: 0
+    y: 0
+
+# ============================================================ #
+
+cursor:
+  style:
+    shape: Block
+    blinking: Always
+
+# ============================================================ #
+
+shell:
+  program: /usr/bin/fish
+
+dynamic_title: false
+draw_bold_text_with_bright_colors: true
+
+# ============================================================ #
+
+key_bindings:
+  - { mods: Shift,   key: PageUp,     action: ScrollPageUp   }
+  - { mods: Shift,   key: PageDown,   action: ScrollPageDown }
+  - { mods: Shift,   key: End,        action: ScrollToBottom }
+  - { mods: Shift,   key: Home,       action: ScrollToTop    }

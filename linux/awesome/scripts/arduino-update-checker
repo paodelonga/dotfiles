@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+set -l current_version (arduino-cli version | awk '{print $3}')
+set -l latest_version (curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR=~/.local/bin sh | sed -n '6p' | awk '{print $3}')
+
+if string match -r "([0-9]*\.[0-9]*\.[0-9]*)" "$latest_version" -q && not string match "$current_version" "$latest_version" -qe
+    notify-send "Arduino CLI" "Uploaded to new version $latest_version" --expire-time 5000 --app-name 'Arduino CLI' --icon "$HOME/.icons/Papirus-Dark/128x128/apps/arduino.svg"
+end

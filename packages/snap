@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+packages=(
+    authme
+    btop
+    color-picker
+    cpufetch
+    discord
+    emote
+    icon-theme-papirus
+    qogir-themes
+) 
+
+for package in "${packages[@]}"
+do
+    snap install "$package"
+done
